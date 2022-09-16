@@ -13,7 +13,7 @@ window.onscroll = () => {
 
 // typing Animation
  var typed = new Typed(".typing",{
-  strings: ["front-end developer", ""],
+  strings: ["Web Developer","front-end developer","PHP Developer"],
   typeSpeed: 100,
   backSpeed: 60,
   loop: true

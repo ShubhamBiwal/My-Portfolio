@@ -303,20 +303,24 @@ header .social a:hover {
   width: 90%;
 }
 .about .row-2 .skills .progress:nth-child(3) .bar span {
-  width: 55%;
+  width: 65%;
 }
 .about .row-2 .skills .progress:nth-child(4) .bar span {
-  width: 70%;
+  width: 55%;
 }
 .about .row-2 .skills .progress:nth-child(5) .bar span {
-  width: 40%;
+  width: 55%;
 }
 .about .row-2 .skills .progress:nth-child(6) .bar span {
-  width: 40%;
+  width: 75%;
 }
 .about .row-2 .skills .progress:nth-child(7) .bar span {
-  width: 40%;
+  width: 45%;
 }
+.about .row-2 .skills .progress:nth-child(8) .bar span {
+  width: 55%;
+}
+
 .about .row-2 .skills-2 .progress:nth-child(1) .bar span {
   width: 85%;
 }
@@ -327,7 +331,13 @@ header .social a:hover {
   width: 75%;
 }
 .about .row-2 .skills-2 .progress:nth-child(4) .bar span {
-  width: 55%;
+  width: 60%;
+}
+.about .row-2 .skills-2 .progress:nth-child(5) .bar span {
+  width: 99%;
+}
+.about .row-2 .skills-2 .progress:nth-child(6) .bar span {
+  width: 50%;
 }
 .projects .box-container {
   display: flex;
@@ -362,7 +372,7 @@ header .social a:hover {
   bottom: 0.5rem;
   left: 1rem;
   font-size: 2.5rem;
-  color: #000;
+  color: var(--main-color);
   text-transform: uppercase;
 }
 .projects .box-container .box p {
@@ -390,9 +400,11 @@ header .social a:hover {
   line-height: 4rem;
   text-align: center;
   margin-bottom: 1rem;
+  opacity: .8;
 }
 .projects .box-container .box .icons a:hover {
-  background: #000;
+  opacity: 1;
+  scale: 1.15;
 }
 .contact .contact-container {
   display: flex;
