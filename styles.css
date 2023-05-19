@@ -213,7 +213,6 @@ header .social a:hover {
 }
 .about .row-1 .image {
   flex: 1 1 40rem;
-  
 }
 .about .row-1 .image img {
   width: 100%;
@@ -304,41 +303,44 @@ header .social a:hover {
   width: 65%;
 }
 .about .row-2 .skills .progress:nth-child(4) .bar span {
-  width: 80%;
+  width: 75%;
 }
 .about .row-2 .skills .progress:nth-child(5) .bar span {
-  width: 75%;
+  width: 85%;
 }
 .about .row-2 .skills .progress:nth-child(6) .bar span {
   width: 75%;
 }
 .about .row-2 .skills .progress:nth-child(7) .bar span {
-  width: 45%;
+  width: 75%;
 }
 .about .row-2 .skills .progress:nth-child(8) .bar span {
-  width: 55%;
+  width: 50%;
 }
 
 .about .row-2 .skills-2 .progress:nth-child(1) .bar span {
-  width: 85%;
+  width: 55%;
 }
 .about .row-2 .skills-2 .progress:nth-child(2) .bar span {
-  width: 75%;
+  width: 45%;
 }
 .about .row-2 .skills-2 .progress:nth-child(3) .bar span {
-  width: 80%;
+  width: 85%;
 }
 .about .row-2 .skills-2 .progress:nth-child(4) .bar span {
   width: 75%;
 }
 .about .row-2 .skills-2 .progress:nth-child(5) .bar span {
-  width: 60%;
+  width: 80%;
 }
 .about .row-2 .skills-2 .progress:nth-child(6) .bar span {
-  width: 99%;
+  width: 75%;
 }
 .about .row-2 .skills-2 .progress:nth-child(7) .bar span {
-  width: 50%;
+  width: 99%;
+}
+.about .row-2 .skills-2 .progress:nth-child(8) .bar span {
+  width: 55%;
 }
 .projects .box-container {
   display: flex;
@@ -401,7 +403,7 @@ header .social a:hover {
   line-height: 4rem;
   text-align: center;
   margin-bottom: 1rem;
-  opacity: .8;
+  opacity: 0.8;
 }
 .projects .box-container .box .icons a:hover {
   opacity: 1;
