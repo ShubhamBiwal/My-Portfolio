@@ -6,6 +6,7 @@ const assets = [
   "/script.js",
   "/images/favicon_io/favicon-128x128.png",
   "/images/favicon_io/favicon-144x144.png",
+
   //   "/images/document-page.jpg",
   //   "/images/front-end-logo.png",
   //   "/images/product-landing-page.jpg",

@@ -23,7 +23,7 @@ var typed = new Typed(".typing", {
   backSpeed: 60,
   loop: true,
 });
-//  register
+//  register service worker
 if ("serviceWorker" in navigator) {
   window.addEventListener("load", function () {
     navigator.serviceWorker
@@ -31,4 +31,9 @@ if ("serviceWorker" in navigator) {
       .then((res) => console.log("service worker registered"))
       .catch((err) => console.log("service worker not registered", err));
   });
+}
+
+//preloader js
+window.onload = function(){
+  document.getElementById("loading").style.display = "none";
 }
